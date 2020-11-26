@@ -44,7 +44,7 @@ const defaultFontFace = "IBM Plex Mono";
 const headerHeight = 60;
 const canvasMargin = 20;
 const yearHeight = textHeight + (boxWidth + boxMargin) * 8 + canvasMargin;
-const scaleFactor = window.devicePixelRatio || 1;
+const scaleFactor = 1;
 
 function drawYear(ctx, opts = {}) {
   const {
